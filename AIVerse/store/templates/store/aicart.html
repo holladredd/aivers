@@ -1,0 +1,91 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+
+{% include 'store/includes/homenav.html' %}
+<hr class="text-secondary">
+
+<nav class="navbar mb-3">
+
+    <div class=" ms-2 p-0 ">
+        <select class="form-select">
+            
+            <div class="dropdown-menu" aria-labelledby="filterDropdown">
+                <option selected>Filter By</option>
+          <option value="newest">Newest</option>
+          <option value="oldest">Oldest</option>
+          <hr>
+          <option value="topRated">Top Rated</option>
+          
+          <option value="paid">Paid</option>
+        </div>
+    </select>
+    </div>
+</nav>
+<div class="container d-flex pt-1">
+
+
+<div class="row mx-auto d-flex">
+    
+      <div class="card m-3 col-3 p-0 bg-light shadow-sm" >
+        <!-- <img src="{% static 'images/thunder.jpg' %}" class="card-img-thumb" alt="thunder"> -->
+        <!-- <img src="info-dredd.jpg" class="card-img" alt="thunder"> -->
+        <div class="card-head p-5  bg-primary text-primary">
+          <p class="text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        </div>
+
+
+        <div class="card m-3 col-3 p-0 bg-light shadow-sm" >
+            <!-- <img src="{% static 'images/thunder.jpg' %}" class="card-img-top" alt="thunder"> -->
+            <!-- <img src="info-dredd.jpg" class="card-img" alt="thunder"> -->
+            <div class="card-head p-5  bg-primary text-primary">
+              <p class=" text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+
+
+            <div class="card m-3 col-3 p-0 bg-light shadow-sm" >
+                <!-- <img src="{% static 'images/thunder.jpg' %}" class="card-img-top" alt="thunder"> -->
+                <!-- <img src="info-dredd.jpg" class="card-img" alt="thunder"> -->
+                <div class="card-head p-5  bg-primary text-primary">
+                  <p class="text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+
+                <div class="card m-3 col-3 p-0 bg-light shadow-sm" >
+                    <!-- <img src="{% static 'images/thunder.jpg' %}" class="card-img-top" alt="thunder"> -->
+                    <!-- <img src="info-dredd.jpg" class="card-img" alt="thunder"> -->
+                    <div class="card-head p-5  bg-primary text-primary">
+                      <p class="text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    </div>
+
+                    <div class="card m-3 col-3 p-0 bg-light shadow-sm" >
+                        <!-- <img src="{% static 'images/thunder.jpg' %}" class="card-img-top" alt="thunder"> -->
+                        <!-- <img src="info-dredd.jpg" class="card-img" alt="thunder"> -->
+                        <div class="card-head p-5  bg-primary text-primary">
+                          <p class="text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        </div>
+
+                        <div class="card m-3 col-3 p-0 bg-light shadow-sm" >
+                            <!-- <img src="{% static 'images/thunder.jpg' %}" class="card-img-top" alt="thunder"> -->
+                            <!-- <img src="info-dredd.jpg" class="card-img" alt="thunder"> -->
+                            <div class="card-head p-5  bg-primary text-primary">
+                              <p class="text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            </div>
+</div>
+</div>
+<!-- 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+    <footer>
+        
+        <script src="{% static 'js/ajax-tracker.js' %}"></script>
+        <script src="{% static 'js/scrollreveal.min.js' %}"></script>
+    </footer> -->
+
+{% endblock content %}

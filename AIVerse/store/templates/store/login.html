@@ -1,0 +1,38 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+{% include "store/includes/mainnav.html"%}
+<hr class="text-secondary">
+    <div class="container d-flex pt-5">
+        <div class="card m-auto col-6 mt-5">
+            <div class="card-head p-0 mx-auto "><h1>Log In </h1></div>
+            <div class="card-body ">
+              <form action="">
+                <div class="mb-3 row">
+                    <label for="staticEmail" class="form-label">Email:</label>
+                    <div class="">
+                      <input type="text" class="form-control" id="staticEmail" value="Your E-mail Here">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="inputPassword" class="form-label">Password:</label>
+                    <div class="">
+                      <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                  </div>
+                  <div class=" bg-white d-flex " >
+                      <a class="btn btn-primary d-flex  mx-auto" href="{% url 'index' %}">Log In</a>
+                      <a class="btn btn-success d-flex  mx-auto" href="{% url 'signup' %}">Sign Up</a>
+                    </div>
+
+                </form>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+{% endblock content %}
