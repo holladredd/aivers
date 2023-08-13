@@ -1,7 +1,7 @@
 {
     "builds": [{
         "src": "AIVerse/wsgi.py",
-        "use": "@netlify/python",
+        "use": "@vercel/python",
         "config": {"maxLambdaSize": "15mb", "runtime": "python3.9"}
     }],
     "routes": [
